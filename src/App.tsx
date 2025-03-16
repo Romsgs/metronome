@@ -81,7 +81,7 @@ const Metronome: React.FC = () => {
 
   return (
     <div className="metronome-container">
-      <h2 className="metronome-title">Metrônomo Interativo</h2>
+      <h2 className="metronome-title">Metrônomo</h2>
       <br></br>
       <p className="bpm-display">BPM: {bpm} </p>
       <p className="bpm-name">{getBpmLabel(bpm)}</p>
