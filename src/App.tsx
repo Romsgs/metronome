@@ -95,7 +95,7 @@ const Metronome: React.FC = () => {
           onChange={(e) => setBpm(Number(e.target.value))}
           className="bpm-slider"
         />
-        <button className="bpm-button" onClick={() => setBpm(prev => Math.min(208, prev + 1))}>+</button>
+        <button className="bpm-button" onClick={() => setBpm(prev => Math.min(300, prev + 1))}>+</button>
       </div>
       
       <button className="start-stop-button" onClick={startMetronome}>
