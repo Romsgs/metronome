@@ -1,0 +1,41 @@
+.metronome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 500px;
+}
+
+.metronome-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bpm-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bpm-button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.bpm-slider {
+  width: 200px;
+}
+
+.bpm-display {
+  font-size: 3rem;
+}
+.bpm-name {
+  font-size: 2rem;
+}
+
+.start-stop-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
